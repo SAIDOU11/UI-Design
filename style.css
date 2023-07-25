@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+body {
+  background: #eee;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, auto);
+}
+
+.card {
+  background: white;
+  padding: 0.2em;
+  width: 60%;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+/* Overwrite CSS */
+
+.secondary {
+  padding: 1.5em;
+}
+
+.secondary h1 {
+  margin-bottom: 0.5em;
+}
+
+.secondary p {
+  line-height: 1.5em;
+}
