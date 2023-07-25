@@ -1,5 +1,5 @@
 # The Frontend Developer Career Path
 
-# Module 10 Scrimba Frontend Developer Career Path. Working with APIs & Asinc JS
+# Module 10 Scrimba Frontend Developer Career Path. UI Design.
 
 - UI-Design
