@@ -80,16 +80,3 @@ p.desc {
 }
 
 /* Overwrites */
-
-.color-container {
-  grid-template-columns: repeat(3, auto);
-}
-
-h1 {
-  font-size: 2.2rem;
-}
-
-p.code {
-  font-size: 1.5rem;
-  font-weight: bold;
-}

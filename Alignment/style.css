@@ -50,18 +50,9 @@ a.cta {
   margin-top: 1.5em;
 }
 
-/* Show Column: */
-
-.container {
-  border-left: 1px solid rgba(255, 255, 255, 0);
-}
+/* Show Column: opacity 0 to 1 */
 
 /* Improvements */
-
-h1 {
-  margin-left: 0;
-}
-
-a.cta {
-  transform: none;
-}
+/* .container {
+  border-left: 1px solid rgba(255, 255, 255, 0);
+} */

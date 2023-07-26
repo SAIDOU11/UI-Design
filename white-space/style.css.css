@@ -32,15 +32,3 @@ p {
 }
 
 /* Overwrite CSS */
-
-.secondary {
-  padding: 1.5em;
-}
-
-.secondary h1 {
-  margin-bottom: 0.5em;
-}
-
-.secondary p {
-  line-height: 1.5em;
-}
