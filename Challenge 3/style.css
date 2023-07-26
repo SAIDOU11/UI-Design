@@ -113,24 +113,30 @@ input[type="submit"] {
 */
 
 body {
-  background: auto;
+  background: white;
+  color: #1c2022;
 }
 
 .container {
-  border-left: auto;
+  border-left: 0.7em solid #ff01ff;
+}
+
+.container p {
+  color: #2b3337;
 }
 
 input[type="text"],
 textarea {
-  background: auto;
-  border-bottom: auto;
+  background: white;
+  border-bottom: 1px solid gray;
+  color: #9d9d9d;
 }
 
-input[input="text"]:focus,
+input[type="text"]:focus,
 textarea:focus {
-  border-bottom: auto;
+  border-bottom: 1px solid #ff01ff;
 }
 
 input[type="submit"] {
-  background: auto;
+  background: #ff01ff;
 }

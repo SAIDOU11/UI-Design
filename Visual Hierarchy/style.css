@@ -33,6 +33,11 @@ label {
   margin-bottom: 0.8em;
 }
 
+input[type="text"] {
+  width: 90%;
+  padding: 0.5em;
+}
+
 input[type="submit"] {
   padding: 0.5em;
   font-size: 0.8em;
@@ -48,15 +53,28 @@ p {
 
 /* Improvements */
 
-/*
-h1{}
+h1 {
+  font-size: 3rem;
+}
 
-.form-container{}
+.form-container {
+  background: #6900f3;
+}
 
-label{}
+label {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 
-input[type=submit]{}
+input[type="submit"] {
+  background: #ffed8c;
+  color: #5801cb;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
 
-p{}
-
-*/
+p {
+  color: #d8c1f7;
+}

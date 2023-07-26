@@ -49,3 +49,16 @@ footer {
 }
 
 /* Overwrites */
+
+.container {
+  background-color: #3c1581;
+}
+
+h1,
+p {
+  color: white;
+}
+
+a {
+  background: #feed00;
+}

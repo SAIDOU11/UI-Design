@@ -57,3 +57,14 @@ a {
 }
 
 /* Overwrites */
+
+p {
+  font-size: 1.1rem;
+  color: #002a4e;
+}
+
+a {
+  padding: 1.3em;
+  background: #0f5fc2;
+  color: white;
+}

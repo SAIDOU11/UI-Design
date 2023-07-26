@@ -49,3 +49,26 @@ cite {
   font-family: "Amatic SC", cursive;
   font-size: 1.4em;
 }
+
+/* Overwrites */
+
+h1,
+p,
+blockquote p,
+cite {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+blockquote p {
+  line-height: 1.5;
+}
+
+cite {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #373737;
+}

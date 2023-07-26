@@ -53,6 +53,14 @@ a.cta {
 /* Show Column: opacity 0 to 1 */
 
 /* Improvements */
-/* .container {
+.container {
   border-left: 1px solid rgba(255, 255, 255, 0);
-} */
+}
+
+h1 {
+  margin-left: 0;
+}
+
+a.cta {
+  transform: none;
+}

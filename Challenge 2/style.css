@@ -51,3 +51,37 @@ span {
    text-transform, font-size, letter-spacing & color
    
 */
+
+.container {
+  width: 90%;
+}
+
+.card {
+  background: #2c3031;
+  padding: 1.5em;
+}
+
+.content {
+  color: white;
+}
+
+.date {
+  text-transform: uppercase;
+  color: #cbd1d4;
+  margin-bottom: 0.8em;
+}
+
+p,
+h3 {
+  margin-left: 0;
+}
+
+h3 {
+  font-size: 1.9rem;
+  margin: 0.5rem 0;
+}
+
+.desc {
+  line-height: 1.5;
+  width: 90%;
+}
