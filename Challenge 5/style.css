@@ -11,7 +11,7 @@ body {
   height: 100vh;
   color: white;
   font-family: "Nunito", sans-serif;
-  grid-gap: 0.5em;
+  grid-gap: 2em;
 }
 
 sidebar {
@@ -19,16 +19,16 @@ sidebar {
 }
 
 .content {
-  background: #6c22ff;
-  padding: 0.5em;
+  background: #0044b9;
+  padding: 1.5em;
   width: 50%;
   margin-right: 2em;
   border-radius: 0.8em;
 }
 
 h1 {
-  margin-left: 1em;
-  font-size: 1em;
+  margin-left: 0em;
+  font-size: 2.3rem;
 }
 
 h3 {
@@ -50,27 +50,4 @@ li {
 
 span {
   float: right;
-}
-
-/* 
-
-    Your Fixes Below
-
-    Please keep the same background color
-    and the same sidebar backgroun color.
-
-*/
-
-body {
-  grid-gap: 2em;
-}
-
-.content {
-  background: #0044b9;
-  padding: 1.5em;
-}
-
-h1 {
-  margin-left: 0em;
-  font-size: 2.3rem;
 }

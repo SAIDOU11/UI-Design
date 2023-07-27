@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  font-size: 1.2em;
+  font-size: 2.2rem;
   margin: 0.3em 0;
 }
 
@@ -26,7 +26,7 @@ p.subheading {
 
 .color-container {
   display: grid;
-  grid-template-columns: repeat(3, 150px);
+  grid-template-columns: repeat(3, auto);
   grid-gap: 1em;
 }
 
@@ -67,7 +67,8 @@ span {
 }
 
 p.code {
-  font-size: 0.8em;
+  font-size: 1.5rem;
+  font-weight: bold;
   margin-bottom: 0;
   margin-top: 0.8em;
 }
@@ -77,20 +78,4 @@ p.desc {
   background: #dae7eb;
   margin: 1em -1em 0;
   padding: 1em;
-}
-
-/* Overwrites */
-
-.color-container {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-}
-
-h1 {
-  font-size: 2.2rem;
-}
-
-p.code {
-  font-size: 1.5rem;
-  font-weight: bold;
 }

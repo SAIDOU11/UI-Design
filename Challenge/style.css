@@ -5,12 +5,17 @@ body {
 }
 
 body {
+  margin: 0 2em;
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(3, auto);
   place-items: center;
   background: lightblue;
   grid-gap: 2em;
+}
+
+.content {
+  padding: 0.5em 1em;
 }
 
 .card {
@@ -25,45 +30,17 @@ span {
 }
 
 p.date {
-  text-align: center;
+  text-align: left;
   font-size: 0.7em;
   text-transform: uppercase;
 }
 
 h3 {
+  font-size: 1.5rem;
   margin: 0;
 }
 
 p.desc {
-  font-size: 0.9em;
-}
-
-/* 
-   Use the following properties
-   to fix the alignment and white
-   space issues on the rulesets
-   below this comment.
-   
-   margin, padding, text-align
-   
-*/
-
-body {
-  margin: 0 2em;
-}
-
-.content {
-  padding: 0.5em 1em;
-}
-
-p.date {
-  text-align: left;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-p.desc {
   line-height: 1.5;
+  font-size: 0.9em;
 }

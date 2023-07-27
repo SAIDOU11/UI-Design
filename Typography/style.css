@@ -15,6 +15,7 @@ p {
 }
 
 h1 {
+  font-size: 2rem;
   margin: 2em 0 -0.2em;
   font-family: "Montserrat", sans-serif;
 }
@@ -31,10 +32,6 @@ section {
   padding: 1.7em;
 }
 
-blockquote {
-  margin: 0;
-}
-
 span {
   width: 70px;
   height: 70px;
@@ -44,14 +41,6 @@ span {
   margin: 0 auto;
 }
 
-cite {
-  font-style: normal;
-  font-family: "Amatic SC", cursive;
-  font-size: 1.4em;
-}
-
-/* Overwrites */
-
 h1,
 p,
 blockquote p,
@@ -59,12 +48,9 @@ cite {
   font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  font-size: 2rem;
-}
-
 blockquote p {
   line-height: 1.5;
+  margin: 0;
 }
 
 cite {
