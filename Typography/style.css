@@ -8,30 +8,27 @@ body {
   width: 95%;
   margin: 0 auto;
 }
-
 h1,
 p {
   font-size: 1em;
 }
-
 h1 {
-  font-size: 2rem;
   margin: 2em 0 -0.2em;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Seymour One", sans-serif;
 }
-
 section {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 1em;
   margin-top: 2em;
 }
-
 .card {
-  background-color: #eee;
+  background-color: #eeeeee;
   padding: 1.7em;
 }
-
+blockquote {
+  margin: 0;
+}
 span {
   width: 70px;
   height: 70px;
@@ -40,21 +37,10 @@ span {
   border-radius: 50%;
   margin: 0 auto;
 }
-
-h1,
-p,
-blockquote p,
 cite {
-  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.4em;
 }
 
-blockquote p {
-  line-height: 1.5;
-  margin: 0;
-}
-
-cite {
-  font-size: 0.7rem;
-  font-weight: bold;
-  color: #373737;
-}
+/* font-family: "Montserrat", sans-serif; */

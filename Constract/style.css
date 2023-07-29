@@ -3,21 +3,17 @@ body {
   margin: 0;
   padding: 0;
 }
-
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
 }
-
 .container {
   padding: 3em 2em;
 }
-
 header {
   position: relative;
   display: block;
   width: 100%;
 }
-
 header::after {
   content: "";
   position: absolute;
@@ -32,22 +28,20 @@ header::after {
 
 h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2.5em;
   color: #002a4e;
 }
-
 p {
-  font-size: 1.1rem;
-  color: #002a4e;
+  color: rgba(0, 0, 0, 0.3);
   margin-top: 0.5em;
+  font-size: 0.9em;
   font-weight: bold;
 }
-
 a {
-  padding: 1.3em;
-  background: #0f5fc2;
-  color: white;
+  background: #cccccc;
+  padding: 0.8em;
   text-decoration: none;
+  color: gray;
   font-weight: bold;
   font-size: 0.8em;
   border-radius: 0.4em;
@@ -55,3 +49,7 @@ a {
   display: inline-block;
   text-transform: uppercase;
 }
+
+/* Overwrites */
+
+/* font-family: "Montserrat", sans-serif; */

@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 body {
   background: #212527;
   color: #9fb2b9;
@@ -11,41 +10,25 @@ body {
 
 .container {
   display: grid;
-  width: 90%;
+  width: 100%;
   margin: 2em auto 0;
 }
-
-.content {
-  color: white;
-}
-
 .card {
+  background: #337590;
   display: grid;
   grid-template-columns: 1fr 5fr;
   align-items: center;
   border-radius: 1em;
-  background: #2c3031;
   margin-bottom: 2em;
-  padding: 1.5em;
 }
-
-.date {
-  text-transform: uppercase;
-  color: #cbd1d4;
-  margin-bottom: 0.8em;
-}
-
 p,
 h3 {
-  margin-left: 0;
+  margin: 0;
+}
+h3 {
+  margin-left: 1em;
   margin-top: 0.5em;
 }
-
-h3 {
-  font-size: 1.9rem;
-  margin: 0.5em 0 1em 0;
-}
-
 span {
   width: 5em;
   height: 5em;
@@ -53,7 +36,25 @@ span {
   border-radius: 50%;
 }
 
-.desc {
-  line-height: 1.5;
-  width: 90%;
+/* 
+
+ Your fixes below:
+ 
+ My solution included using the following properties:  
+ width, background, padding, margin,
+ text-transform, font-size, letter-spacing & color
+ 
+
+
+.container {
 }
+
+.card {
+}
+
+p.date {
+}
+
+h3 {
+}
+*/

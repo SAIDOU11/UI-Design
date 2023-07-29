@@ -5,25 +5,19 @@ body {
 }
 
 body {
-  background: white;
-  color: #1c2022;
-  font-family: "Nunito", sans-serif;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-family: "Nunito";
 }
 
 .container {
-  border-left: 0.7em solid #ff01ff;
   margin-top: 3em;
+  border-left: 0.7em solid gray;
   padding: 0 3em;
 }
-
 h1 {
   margin: 0;
 }
-
-.container p {
-  color: #2b3337;
-}
-
 p {
   color: #9d9d9d;
   margin: 0.5em 0 2em;
@@ -34,26 +28,25 @@ label {
   font-weight: bold;
   margin-bottom: 0.7em;
 }
-
 input[type="text"],
 textarea {
-  background: rgb(231, 230, 230);
-  color: #9d9d9d;
   margin-bottom: 1.5em;
   display: block;
   padding: 0.5em;
   width: 80%;
+  background: gray;
   border: none;
+  border-bottom: 1px solid lightgray;
   outline: 0;
+  color: black;
 }
-
 input[type="text"]:focus,
 textarea:focus {
-  border-bottom: 1px solid #ff01ff;
+  border-bottom: 1px solid white;
 }
 
 input[type="submit"] {
-  background: #ff01ff;
+  background: gray;
   border: none;
   color: white;
   font-weight: bold;
@@ -68,7 +61,6 @@ input[type="submit"] {
   right: 0;
   padding: 0.5em;
 }
-
 .colors div {
   width: 2em;
   height: 2em;
@@ -82,28 +74,59 @@ input[type="submit"] {
   place-content: center;
   border: 2px solid rgba(0, 0, 0, 0.3);
 }
-
 .colors div:nth-child(1) {
   background-color: #1c2022;
-  color: white;
 }
-
 .colors div:nth-child(2) {
   background-color: #9d9d9d;
-  color: white;
 }
-
 .colors div:nth-child(3) {
   background-color: #2b3337;
-  color: white;
 }
-
 .colors div:nth-child(4) {
   background-color: #ff01ff;
-  color: black;
 }
-
 .colors div:nth-child(5) {
   background-color: white;
   color: black;
 }
+
+/*
+  Your fixes below!
+  
+  Use these colors codes: 
+  (1) #1C2022
+  (2) #9D9D9D
+  (3) #2B3337
+  (4) #FF01FF
+  (5) white
+*/
+
+body {
+  background: auto;
+}
+
+.container {
+  border-left: auto;
+}
+
+p {
+  color: auto;
+}
+
+input[type="text"],
+textarea {
+  background: auto;
+  border-bottom: auto;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-bottom: auto;
+}
+
+input[type="submit"] {
+  background: auto;
+}
+
+/* font-family: "Nunito", sans-serif; */

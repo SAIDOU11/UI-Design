@@ -3,20 +3,17 @@ body {
   margin: 0;
   padding: 0;
 }
-
 body {
   padding: 2em;
   background: #5801cb;
   color: white;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
 }
-
 h1 {
-  font-size: 3rem;
+  font-size: 1.1em;
 }
 
 .form-container {
-  background: #6900f3;
   padding: 2em;
   display: grid;
   grid-template-columns: 70% auto;
@@ -29,29 +26,46 @@ h1 {
 
 label {
   display: block;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.1em;
   grid-area: label;
   margin-bottom: 0.8em;
 }
-
 input[type="text"] {
   width: 90%;
   padding: 0.5em;
 }
-
 input[type="submit"] {
   padding: 0.5em;
+  font-size: 0.8em;
+  background: none;
+  border: 1px solid white;
+  color: white;
   cursor: pointer;
-  background: #ffed8c;
-  color: #5801cb;
-  border: none;
-  font-family: "Nunito", sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
+}
+p {
+  grid-area: info;
+}
+
+/* Improvements */
+
+/* h1 {
+  
+}
+
+.form-container {
+  
+}
+
+label {
+  
+}
+
+input[type=submit] {
+  
 }
 
 p {
-  grid-area: info;
-  color: #d8c1f7;
-}
+  
+} */
+
+/* font-family: "Nunito", sans-serif; */

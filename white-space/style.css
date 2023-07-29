@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background: #eee;
+  background: #eeeeee;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(2, auto);
@@ -22,24 +22,11 @@ h1,
 p {
   margin: 0;
 }
-
 h1 {
-  font-size: 1.4rem;
+  font-size: 1.4em;
 }
-
 p {
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
 
-.secondary {
-  padding: 1.9em;
-}
-
-.secondary h1 {
-  font-size: 1.7rem;
-  margin-bottom: 0.5em;
-}
-
-.secondary p {
-  line-height: 1.5;
-}
+/* Overwrite CSS */

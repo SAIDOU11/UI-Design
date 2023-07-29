@@ -1,8 +1,8 @@
 html,
 body {
-  padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  font-family: "Montserrat";
 }
 
 body {
@@ -20,7 +20,6 @@ a {
   color: white;
   text-decoration: none;
 }
-
 a.logo {
   display: block;
   padding-top: 1em;
@@ -30,7 +29,7 @@ a.logo {
 }
 
 h1 {
-  margin: 2em 0 0.5em 0;
+  margin: 2em 0 1em 0.5em;
   color: white;
 }
 
@@ -46,6 +45,22 @@ a.cta {
   padding: 0.8em 1.7em;
   font-weight: bold;
   border-radius: 2em;
-  /* transform: translateX(50%); */
+  transform: translateX(50%);
   margin-top: 1.5em;
 }
+
+/* Show Column: */
+
+.container {
+  border-left: 1px solid rgba(255, 255, 255, 0);
+}
+
+/* Improvements
+
+h1 { margin-left: 0; }
+a.cta { transform: none; }
+a.logo { text-align: left; }
+
+*/
+
+/* font-family: "Montserrat", sans-serif; */
