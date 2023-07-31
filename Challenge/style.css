@@ -45,18 +45,24 @@ p.desc {
  
 */
 
-/*
 body {
+  padding: 0 2em;
 }
 .content {
+  padding: 0.6em;
 }
 
 p.date {
+  margin: 0;
+  text-align: left;
 }
 
 h3 {
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 p.desc {
+  line-height: 1.5;
+  margin-bottom: 0;
 }
-*/

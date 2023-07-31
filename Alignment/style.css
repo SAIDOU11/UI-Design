@@ -8,6 +8,7 @@ body {
 body {
   background-color: #444e5c;
   border-left: 17px solid rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
   height: 100vh;
 }
 
@@ -56,11 +57,16 @@ a.cta {
 }
 
 /* Improvements
-
-h1 { margin-left: 0; }
-a.cta { transform: none; }
-a.logo { text-align: left; }
-
 */
 
-/* font-family: "Montserrat", sans-serif; */
+h1 {
+  margin-left: 0;
+}
+
+a.cta {
+  transform: none;
+}
+
+a.logo {
+  text-align: left;
+}

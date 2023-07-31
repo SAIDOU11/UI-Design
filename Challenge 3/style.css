@@ -103,30 +103,24 @@ input[type="submit"] {
 */
 
 body {
-  background: auto;
+  background: #1c2022;
 }
 
 .container {
+  border-left: 0.7em solid #ff01ff;
   border-left: auto;
 }
 
 p {
-  color: auto;
-}
-
-input[type="text"],
-textarea {
-  background: auto;
-  border-bottom: auto;
+  color: white;
 }
 
 input[type="text"]:focus,
 textarea:focus {
-  border-bottom: auto;
+  border-bottom: 1px solid #ff01ff;
 }
 
 input[type="submit"] {
-  background: auto;
+  background: #ff01ff;
+  font-family: "Nunito", sans-serif;
 }
-
-/* font-family: "Nunito", sans-serif; */

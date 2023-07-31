@@ -30,3 +30,16 @@ p {
 }
 
 /* Overwrite CSS */
+
+.secondary {
+  padding: 1.5em;
+}
+
+.secondary h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5em;
+}
+
+.secondary p {
+  line-height: 1.5;
+}

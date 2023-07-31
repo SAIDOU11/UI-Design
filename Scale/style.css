@@ -69,4 +69,25 @@ p.desc {
 
 /* Overwrites */
 
-/* font-family: "Nunito", sans-serif;  */
+.container h1 {
+  font-size: 2.2rem;
+}
+
+.container .subheading {
+  font-size: 1.2rem;
+}
+
+.color-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.color-container .code {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.color-container .desc {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}

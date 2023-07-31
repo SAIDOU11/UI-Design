@@ -43,18 +43,40 @@ span {
  My solution included using the following properties:  
  width, background, padding, margin,
  text-transform, font-size, letter-spacing & color
- 
-
+ */
 
 .container {
+  margin: 2em;
+  width: 90%;
 }
 
 .card {
+  background: #2c3031;
+  display: flex;
+  flex-direction: row;
+}
+
+.card span {
+  margin: 1.5em;
+  width: 8em;
 }
 
 p.date {
+  margin-top: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #7a8587;
 }
 
 h3 {
+  margin: 1em 0 0.7em 0;
+  font-size: 1.8rem;
+  color: #b6eaff;
 }
-*/
+
+p.desc {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  width: 70%;
+  margin-bottom: 1em;
+}
