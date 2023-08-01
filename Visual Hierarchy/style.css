@@ -7,10 +7,10 @@ body {
   padding: 2em;
   background: #5801cb;
   color: white;
-  font-family: "Nunito";
+  font-family: 'Nunito', sans-serif;
 }
 h1 {
-  font-size: 1.1em;
+  font-size: 3rem;
 }
 
 .form-container {
@@ -19,9 +19,9 @@ h1 {
   grid-template-columns: 70% auto;
   grid-template-rows: repeat(3, auto);
   grid-template-areas:
-    "label label"
-    "submit button"
-    "info info";
+    'label label'
+    'submit button'
+    'info info';
 }
 
 label {
@@ -30,11 +30,11 @@ label {
   grid-area: label;
   margin-bottom: 0.8em;
 }
-input[type="text"] {
+input[type='text'] {
   width: 90%;
   padding: 0.5em;
 }
-input[type="submit"] {
+input[type='submit'] {
   padding: 0.5em;
   font-size: 0.8em;
   background: none;
@@ -48,24 +48,23 @@ p {
 
 /* Improvements */
 
-/* h1 {
-  
-}
-
 .form-container {
-  
+  background: #6900f3;
 }
 
 label {
-  
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
-input[type=submit] {
-  
+input[type='submit'] {
+  font-size: 1rem;
+  font-weight: bold;
+  background: #ffed8c;
+  color: #6900f3;
+  border: none;
 }
 
 p {
-  
-} */
-
-/* font-family: "Nunito", sans-serif; */
+  color: #caa2ff;
+}

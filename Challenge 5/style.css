@@ -10,7 +10,7 @@ body {
   grid-template-columns: 10% auto;
   height: 100vh;
   color: white;
-  font-family: "Nunito";
+  font-family: 'Nunito';
   grid-gap: 0.5em;
 }
 sidebar {
@@ -46,26 +46,24 @@ span {
   float: right;
 }
 
-/*  
-  Your Fixes Below
-  
-  Please keep the same background color
-  and the same sidebar background color.
-  
-*/
-
 body {
-  grid-gap: auto; /* Improve the white space */
+  grid-gap: 2em;
 }
 
 .content {
-  background: auto; /* Improve the color/contrast */
-  padding: auto; /* Improve the white space */
+  background: #093277;
+  padding: 1.2em;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+}
+
+.content p {
+  font-size: 1.2rem;
 }
 
 h1 {
-  margin-left: 1em; /* Improve the alignment */
-  font-size: auto; /* Improve the visual hierarchy */
+  margin-left: 0;
+  font-size: 2.5rem;
 }
-
-/* font-family: "Nunito", sans-serif; */

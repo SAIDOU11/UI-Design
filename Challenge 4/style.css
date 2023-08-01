@@ -7,7 +7,7 @@ body {
 body {
   background: #309d67;
   padding: 0.4em;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .card {
@@ -65,20 +65,19 @@ svg {
 }
 
 h1 {
-  font-size: auto;
-  font-weight: auto;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .card p {
-  font-size: auto;
-  line-height: auto;
-  color: auto;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: rgb(45, 44, 44);
 }
 
 a {
-  background: auto;
-  padding: auto;
-  margin-top: auto;
+  background: lightgray;
+  font-size: 1rem;
+  padding: 1em 1.5em;
+  margin-top: 0.5em;
 }
-
-/* font-family: "Nunito", sans-serif; */
